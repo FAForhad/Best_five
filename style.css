@@ -1,0 +1,7 @@
+.header-background{
+    background-image: url(./images/26848.jpg);
+    width: 100;
+    height: 100vh;
+    object-fit: contain;
+    text-align: center;
+}
