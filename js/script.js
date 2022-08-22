@@ -28,3 +28,12 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
     return expansesField
 })
 
+document.getElementById('calculate-total-btn').addEventListener('click', function () {
+    const expansesField = getElementTextById('expanses-field');
+    const manager = getInputValueById('manager');
+    const coach = getInputValueById('coach');
+    const expanseTotal = expansesField + manager + coach;
+    const total = setValueById('total', expanseTotal);
+    return total;
+
+})
