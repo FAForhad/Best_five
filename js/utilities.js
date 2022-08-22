@@ -1,3 +1,4 @@
+
 function getElementTextById(elementId) {
     const elementTextId = document.getElementById(elementId);
     const elementTextString = elementTextId.innerText;
