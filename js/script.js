@@ -2,7 +2,7 @@
 const buttons = document.querySelectorAll('.btn-select');
 // push child's
 const playerArray = [];
-for (button of buttons) {
+for (const button of buttons) {
     // added click event
     button.addEventListener('click', function (event) {
         const playerName = event.target.parentNode.parentNode.children[0].innerText;
