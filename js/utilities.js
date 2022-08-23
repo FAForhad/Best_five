@@ -16,6 +16,7 @@ function getInputValueById(inputId) {
     const inputValueString = inputValueId.value;
     // convert the string
     const inputValue = parseFloat(inputValueString);
+    inputValueId.value = '';
     return inputValue;
 }
 
